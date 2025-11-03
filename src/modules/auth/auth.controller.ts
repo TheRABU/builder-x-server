@@ -40,7 +40,7 @@ const logOut = catchAsync(
         message: "Logged out successfully!",
         body: null,
       });
-    } catch (error) {
+    } catch (error: any) {
       console.log("error at auth.controller.ts LOGOUT::", error.message);
       next();
     }

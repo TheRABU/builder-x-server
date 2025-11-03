@@ -7,6 +7,7 @@ export const connectDb = async () => {
       throw new Error("DB_URI is not defined in environment variables");
     }
     await connect(uri);
+    console.log("database connected sir!!");
   } catch (error: any) {
     console.log(error.message, "error at database connect");
     process.exit(1);
