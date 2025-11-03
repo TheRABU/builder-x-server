@@ -1,0 +1,5 @@
+export enum Preferences {
+  E_COMMERCE = "E_COMMERCE",
+  PORTFOLIO = "PORTFOLIO",
+  LANDING_PAGE = "LANDING_PAGE",
+}
